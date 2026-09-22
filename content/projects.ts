@@ -46,6 +46,7 @@ export const projects: Project[] = [
     summary:
       "Developed a virtual pathfinding lesson and interactive web tools to teach algorithms and AI concepts, improving programming education for 15+ elementary students.",
     tech: ["JavaScript", "TypeScript", "HTML", "CSS"],
+    liveUrl: "https://codekids.cs.vt.edu/",
   },
 ];
 
