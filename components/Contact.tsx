@@ -15,7 +15,7 @@ export default function Contact() {
     <section id="contact" className="section" aria-labelledby="contact-title">
       <div className="container">
         <h2 id="contact-title">Contact</h2>
-        <p>Have a role, project, or question in mind? Send a note below.</p>
+        <p>Want to get in touch? Send a note below.</p>
 
         {state.status === "success" ? (
           <p className="form-status form-status-success" role="status">
