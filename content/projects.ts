@@ -11,6 +11,20 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    id: "universal-patient-timeline",
+    title: "Universal Patient Timeline — Diverge Health",
+    timeframe: "August 2026",
+    summary:
+      "Designed and built the data layer for a Salesforce-embedded React widget that puts a patient's full care history on one chronological feed. It merges encounters, assessments, vitals, medications, goals, conditions, appointments, and tasks into one view for care coordinators.",
+    highlights: [
+      "Wrote the design spec and implementation plan, defining a unified TimelineEvent model and a category registry, so a new data source only needs one config entry, one adapter, and one hook",
+      "Built pure TypeScript adapters that normalize 11 Salesforce and Postgres (Prisma) API sources into timeline events, splitting lifecycle records (medication start/stop, goal set/completed) into separate events",
+      "Implemented merge, sort, month-grouping, and time-bucket utilities with dayjs to drive the feed and an activity-density minimap",
+      "Wrote 28 Vitest unit tests covering every adapter and utility, and designed the adapters to be framework-free so they can move to a backend endpoint without UI changes",
+    ],
+    tech: ["TypeScript", "React", "React Query", "Zod", "Redux", "Vitest", "Salesforce", "Prisma"],
+  },
+  {
     id: "lstm-parking-occupancy-capstone",
     title: "Parking Occupancy Prediction — LSTM Capstone",
     timeframe: "January 2025 – May 2025",
