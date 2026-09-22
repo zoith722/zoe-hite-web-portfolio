@@ -8,7 +8,7 @@ export type SiteConfig = {
 
 export const site: SiteConfig = {
   name: "Zoe Hite",
-  tagline: "Software Engineer — React/TypeScript, machine learning, and cloud.",
+  tagline: "Software Engineer",
   email: "zhite722@gmail.com",
   linkedInUrl: "https://www.linkedin.com/in/zoehite",
 };
