@@ -14,10 +14,11 @@ export default function About() {
               TypeScript interfaces backed by sound APIs and tests.
             </p>
             <p>
-              I coach and lead as well as build — mentoring teammates, organizing
-              work, and communicating clearly with stakeholders. I studied
-              Computer Science at Virginia Tech with a Psychology minor and spent
-              a semester abroad focused on computer science in Siena, Italy.
+              I coach and lead as well as build — mentoring teammates,
+              organizing work, and communicating clearly with stakeholders. I
+              studied Computer Science at Virginia Tech with a Psychology minor
+              and spent a semester abroad focused on computer science in Siena,
+              Italy.
             </p>
           </div>
           <div className="about-photos">
@@ -30,19 +31,9 @@ export default function About() {
                 style={{ width: "100%", height: "auto", objectFit: "cover" }}
               />
             </div>
-            <div className="media-frame">
-              <Image
-                src="/photos/desk-coding.jpg"
-                alt="At the desk coding — builder at work"
-                width={1200}
-                height={900}
-                style={{ width: "100%", height: "auto", objectFit: "cover" }}
-              />
-            </div>
           </div>
         </div>
       </div>
     </section>
   );
 }
-
