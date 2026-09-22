@@ -13,7 +13,6 @@ export default function SiteHeader() {
             <a href="#about">About</a>
             <a href="#experience">Experience</a>
             <a href="#projects">Projects</a>
-            <a href="#links">Links</a>
           </div>
         </nav>
       </div>

@@ -351,19 +351,6 @@ button:focus-visible,
   flex-wrap: wrap;
 }
 
-/* Links */
-.links-list {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: var(--space-3);
-  max-width: 40ch;
-}
-.links-list a {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--space-2);
-}
-
 /* Contact */
 .contact-form {
   display: grid;
