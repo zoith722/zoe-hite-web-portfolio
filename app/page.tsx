@@ -24,9 +24,9 @@ export default function Home() {
 
         <Skills />
 
-        <Links />
-
         <Contact />
+
+        <Links />
       </main>
 
       <footer className="site-footer">
