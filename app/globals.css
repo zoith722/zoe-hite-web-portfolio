@@ -1,7 +1,7 @@
 /* Design tokens (corporate-minimal) */
 :root {
   /* Colors */
-  --color-bg: #EDF3F9;            /* calm light-blue surface */
+  --color-bg: #DEE9F5;            /* calm light-blue surface */
   --color-ink: #171717;           /* near-black primary text */
   --color-muted: #525252;         /* secondary text */
   --color-border: #E5E5E5;        /* rules / dividers */
@@ -203,7 +203,9 @@ main {
 
 section.section {
   padding-block: clamp(40px, 7vw, 80px);
-  border-bottom: var(--elevation-border);
+}
+section.section + section.section {
+  border-top: var(--elevation-border);
 }
 section.section h2 {
   font-size: 20px;
@@ -215,6 +217,7 @@ section.section p {
 
 footer.site-footer {
   padding-block: var(--space-6);
+  border-top: var(--elevation-border);
   color: var(--color-muted);
 }
 
