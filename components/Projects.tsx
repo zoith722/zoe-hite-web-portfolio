@@ -35,7 +35,7 @@ export default function Projects() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Live
+                    Visit Site
                   </a>
                 ) : null}
                 {p.githubUrl ? (
