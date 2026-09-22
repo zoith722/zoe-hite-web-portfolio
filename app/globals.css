@@ -366,6 +366,60 @@ button:focus-visible,
   gap: var(--space-2);
 }
 
+/* Contact */
+.contact-form {
+  display: grid;
+  gap: var(--space-4);
+  max-width: 50ch;
+  margin-top: var(--space-5);
+}
+.field {
+  display: grid;
+  gap: var(--space-2);
+}
+.field label {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  color: var(--color-muted);
+}
+.field input,
+.field textarea {
+  font: inherit;
+  color: var(--color-ink);
+  background: #fff;
+  border: var(--elevation-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-3);
+  resize: vertical;
+}
+.field input:focus-visible,
+.field textarea:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+.contact-form .btn {
+  justify-self: start;
+}
+.contact-form .btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.form-status {
+  padding: var(--space-3);
+  border-radius: var(--radius-md);
+  font-size: 0.95em;
+}
+.form-status-success {
+  color: var(--color-accent);
+  background: var(--color-accent-soft);
+  max-width: 50ch;
+  margin-top: var(--space-5);
+}
+.form-status-error {
+  color: #991b1b;
+  background: #fee2e2;
+}
+
 /* Motion: keep it subtle, honor reduced motion */
 @media (prefers-reduced-motion: reduce) {
   *,

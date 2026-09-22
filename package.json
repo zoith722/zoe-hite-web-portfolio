@@ -8,15 +8,20 @@
     "start": "next start",
     "lint": "eslint",
     "test": "vitest",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "db:migrate": "tsx scripts/migrate.ts"
   },
   "dependencies": {
+    "@vercel/functions": "^3.9.9",
     "next": "16.3.5",
+    "pg": "^8.23.0",
     "react": "19.2.8",
     "react-dom": "19.2.8"
   },
   "devDependencies": {
+    "@next/env": "^16.3.5",
     "@types/node": "^20",
+    "@types/pg": "^8.23.1",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@vitest/coverage-v8": "^5.0.1",

@@ -5,6 +5,7 @@ import About from "@/components/About";
 import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
 import Links from "@/components/Links";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -21,6 +22,8 @@ export default function Home() {
         <Projects />
 
         <Links />
+
+        <Contact />
       </main>
 
       <footer className="site-footer">
