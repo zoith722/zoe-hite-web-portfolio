@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { experience } from "@/content/experience";
-import { skills } from "@/content/skills";
 
 function List({ items }: { items: string[] }) {
   if (!items?.length) return null;
@@ -96,52 +95,6 @@ export default function Experience() {
               height={1200}
               style={{ width: "100%", height: "auto", objectFit: "cover" }}
             />
-          </div>
-        </div>
-
-        <h3 style={{ marginTop: "var(--space-6)" }}>Skills</h3>
-        <div className="xp-item" role="list" aria-label="Skills">
-          <div style={{ display: "grid", gap: "var(--space-4)" }}>
-            <div>
-              <strong>Languages</strong>
-              <div className="chip-row" aria-label="Languages">
-                {skills.languages.map((s) => (
-                  <span key={s} className="chip">
-                    {s}
-                  </span>
-                ))}
-              </div>
-            </div>
-            <div>
-              <strong>Frameworks & APIs</strong>
-              <div className="chip-row" aria-label="Frameworks and APIs">
-                {skills.frameworksAndApis.map((s) => (
-                  <span key={s} className="chip">
-                    {s}
-                  </span>
-                ))}
-              </div>
-            </div>
-            <div>
-              <strong>Cloud & Data</strong>
-              <div className="chip-row" aria-label="Cloud and Data">
-                {skills.cloudAndData.map((s) => (
-                  <span key={s} className="chip">
-                    {s}
-                  </span>
-                ))}
-              </div>
-            </div>
-            <div>
-              <strong>Developer Tools</strong>
-              <div className="chip-row" aria-label="Developer Tools">
-                {skills.developerTools.map((s) => (
-                  <span key={s} className="chip">
-                    {s}
-                  </span>
-                ))}
-              </div>
-            </div>
           </div>
         </div>
       </div>

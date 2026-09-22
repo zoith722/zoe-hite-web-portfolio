@@ -315,12 +315,7 @@ button:focus-visible,
 .projects-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: var(--space-5);
-}
-@media (min-width: 768px) {
-  .projects-grid {
-    grid-template-columns: 1fr 1fr;
-  }
+  gap: var(--space-6);
 }
 .project-card {
   border: var(--elevation-border);
