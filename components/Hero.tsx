@@ -10,8 +10,8 @@ export default function Hero() {
             <h1>{site.name}</h1>
             <p>{site.tagline}</p>
             <div className="cta-row" role="group" aria-label="Primary actions">
-              <a href={`mailto:${site.email}`} className="btn btn-primary">
-                Email
+              <a href="#contact" className="btn btn-primary">
+                Contact Me
               </a>
               <a href="#experience" className="btn btn-secondary">
                 Experience
